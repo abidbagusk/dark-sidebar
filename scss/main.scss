@@ -102,13 +102,12 @@ $main-bg : #000000;
         width: 100%;
         top: 90px;
 
-
         ul {
             list-style-type: none !important;
             margin-left: -25px;
 
             li {
-                display: inline-block;
+                display: block;
                 padding: 0 16px;
 
                 a {
@@ -182,6 +181,28 @@ $main-bg : #000000;
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
+        }
+    }
+
+    // ============== social media ===========
+    .social {
+        position: absolute;
+        z-index: 9999;
+        right: auto;
+        bottom: 75px;
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        display: none;
+
+        a {
+            padding: 5px 10px;
+        }
+
+        .fab {
+            color: #FFF;
         }
     }
 }

@@ -89,7 +89,7 @@
   margin-left: -25px;
 }
 .sidenav .menu__lang ul li {
-  display: inline-block;
+  display: block;
   padding: 0 16px;
 }
 .sidenav .menu__lang ul li a {
@@ -153,6 +153,24 @@
   background: -webkit-linear-gradient(yellow, purple);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.sidenav .social {
+  position: absolute;
+  z-index: 9999;
+  right: auto;
+  bottom: 75px;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  display: none;
+}
+.sidenav .social a {
+  padding: 5px 10px;
+}
+.sidenav .social .fab {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=main.css.map */
