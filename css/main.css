@@ -1,6 +1,6 @@
 .sidenav {
   height: 100%;
-  width: 50px;
+  width: 94px;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,30 +9,44 @@
   padding-top: 50px;
   overflow-x: hidden;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
-.sidenav a {
-  display: block;
-  padding: 10px 0;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: "Roboto Mono", monospace;
-  font-size: 13px;
-  text-transform: uppercase;
+.sidenav .btn-menu {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  margin-left: -20px;
+  cursor: pointer;
 }
-.sidenav .list {
-  visibility: hidden;
+.sidenav .btn-menu .btn-menu__i {
+  width: 38px;
+  height: 37px;
+  position: relative;
+  z-index: 1000;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
-.sidenav .list-on {
-  visibility: visible;
+.sidenav .btn-menu .btn-menu__i .line-1,
+.sidenav .btn-menu .btn-menu__i .line-2,
+.sidenav .btn-menu .btn-menu__i .line-3 {
+  position: absolute;
+  height: 1px;
+  background: #FFF;
 }
-.sidenav .divider {
-  border-top: 0.5px solid #777;
+.sidenav .btn-menu .btn-menu__i .line-1 {
+  top: 12px;
+  left: 13px;
+  width: 14px;
 }
-
-.toggle {
-  width: 200px;
+.sidenav .btn-menu .btn-menu__i .line-2 {
+  left: 8px;
+  top: 18px;
+  width: 24px;
+}
+.sidenav .btn-menu .btn-menu__i .line-3 {
+  left: 13px;
+  top: 24px;
+  width: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */
