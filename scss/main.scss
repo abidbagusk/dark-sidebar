@@ -10,4 +10,8 @@ $main-bg : #000000;
     left: 0;
     z-index: 1;
     background-color: $main-bg;
+    padding-top: 50px;
+    overflow-x: hidden;
+    transition: all 0.5s;
+
 }
