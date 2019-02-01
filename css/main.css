@@ -1,3 +1,7 @@
+.open {
+  width: 305px !important;
+}
+
 .sidenav {
   height: 100%;
   width: 94px;
@@ -7,7 +11,7 @@
   z-index: 1;
   background-color: #000000;
   padding-top: 50px;
-  overflow-x: hidden;
+  overflow: hidden;
   text-align: center;
   transition-duration: 0.8s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
@@ -80,10 +84,11 @@
   box-sizing: border-box;
 }
 .sidenav .menu .menu__list {
-  transform: translate(0, 0);
   list-style-type: none;
   max-width: 240px;
-  vertical-align: baseline;
+  position: absolute;
+  right: 30px;
+  left: 30px;
 }
 .sidenav .menu .menu__list li {
   border-bottom: 1px solid #2e2e2e;
@@ -102,6 +107,14 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.sidenav .menu .menu__list li .toggle {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.8s;
+  transition-delay: 0.8s;
 }
 
 /*# sourceMappingURL=main.css.map */
