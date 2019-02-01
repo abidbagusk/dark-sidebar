@@ -13,5 +13,13 @@ $main-bg : #000000;
     padding-top: 50px;
     overflow-x: hidden;
     transition: all 0.5s;
+    text-align: center;
 
+    a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: $main-font;
+    }
 }
