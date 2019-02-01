@@ -252,6 +252,38 @@
   left: 13px;
   transition: all 0.4s;
 }
+.sidenav--on-mobile .menu {
+  position: relative;
+  box-sizing: border-box;
+}
+.sidenav--on-mobile .menu .menu__list {
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.sidenav--on-mobile .menu .menu__list li {
+  border-bottom: 1px solid #fafafa;
+  transition: 0.2s;
+}
+.sidenav--on-mobile .menu .menu__list li a {
+  font-weight: 700;
+  display: block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #FFF;
+  font-family: "Cutive Mono", monospace;
+  position: relative;
+  text-transform: uppercase;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 .toggle-on-mobile {
   width: 95%;
   height: 400px;

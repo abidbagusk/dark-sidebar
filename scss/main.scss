@@ -298,7 +298,41 @@ $main-bg : #000000;
     }
 
     // Menu List
-    .menu {}
+    .menu {
+        position: relative;
+        box-sizing: border-box;
+
+        .menu__list {
+            list-style-type: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+
+            li {
+                border-bottom: 1px solid #fafafa;
+                transition: .2s;
+
+                a {
+                    font-weight: 700;
+                    display: block;
+                    font-size: 13px;
+                    letter-spacing: 2px;
+                    color: #FFF;
+                    font-family: $main-font;
+                    position: relative;
+                    text-transform: uppercase;
+                    height: 53px;
+                    line-height: 53px;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    text-decoration: none;
+
+                }
+            }
+        }
+    }
 }
 
 .toggle-on-mobile {
