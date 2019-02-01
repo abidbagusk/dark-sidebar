@@ -92,6 +92,7 @@
 }
 .sidenav .menu .menu__list li {
   border-bottom: 1px solid #2e2e2e;
+  margin-left: -25px;
 }
 .sidenav .menu .menu__list li a {
   display: block;
