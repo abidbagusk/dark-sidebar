@@ -14,8 +14,10 @@ $(document).ready(function () {
     $('.closebtn').on({
         click: function () {
             $('#mySidenav').animate({
-                'width': 250
-            }, 500, 'easeInOutSine');
+                'width': 200
+            }, 600, 'easeInBack');
         }
     });
+
+
 });
