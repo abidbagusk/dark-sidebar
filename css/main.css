@@ -178,4 +178,16 @@
   color: #FFF;
 }
 
+.sidenav--on-mobile {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: #2e2e2e;
+  padding: 10px;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
 /*# sourceMappingURL=main.css.map */
