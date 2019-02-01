@@ -25,6 +25,7 @@
   position: relative;
   z-index: 1000;
   border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: all 0.4s;
 }
 .sidenav .btn-menu .btn-menu__i .line-1,
 .sidenav .btn-menu .btn-menu__i .line-2,
@@ -37,16 +38,30 @@
   top: 12px;
   left: 13px;
   width: 14px;
+  transition: all 0.4s;
 }
 .sidenav .btn-menu .btn-menu__i .line-2 {
   left: 8px;
   top: 18px;
   width: 24px;
+  transition: all 0.4s;
 }
 .sidenav .btn-menu .btn-menu__i .line-3 {
   left: 13px;
   top: 24px;
   width: 14px;
+  transition: all 0.4s;
+}
+.sidenav .btn-menu .btn-menu__i:hover .line-1,
+.sidenav .btn-menu .btn-menu__i:hover .line-3 {
+  width: 24px;
+  left: 8px;
+  transition: all 0.4s;
+}
+.sidenav .btn-menu .btn-menu__i:hover .line-2 {
+  width: 14px;
+  left: 13px;
+  transition: all 0.4s;
 }
 
 /*# sourceMappingURL=main.css.map */
