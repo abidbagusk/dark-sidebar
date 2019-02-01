@@ -78,9 +78,35 @@
   left: 13px;
   transition: all 0.4s;
 }
+.sidenav .menu__lang {
+  position: relative;
+  left: 0;
+  width: 100%;
+  top: 90px;
+}
+.sidenav .menu__lang ul {
+  list-style-type: none !important;
+  margin-left: -25px;
+}
+.sidenav .menu__lang ul li {
+  display: inline-block;
+  padding: 0 16px;
+}
+.sidenav .menu__lang ul li a {
+  font-size: 13px;
+  font-family: "Cutive Mono", monospace;
+  color: #FFF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.sidenav .menu__lang ul li .lang-active {
+  color: lightblue;
+}
 .sidenav .menu {
   position: relative;
-  padding: 135px 30px 0;
+  padding: 80px 30px 0;
   height: 100%;
   box-sizing: border-box;
 }

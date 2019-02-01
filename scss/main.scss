@@ -95,10 +95,43 @@ $main-bg : #000000;
         }
     }
 
+    // =========== Menu Language ========
+    .menu__lang {
+        position: relative;
+        left: 0;
+        width: 100%;
+        top: 90px;
+
+
+        ul {
+            list-style-type: none !important;
+            margin-left: -25px;
+
+            li {
+                display: inline-block;
+                padding: 0 16px;
+
+                a {
+                    font-size: 13px;
+                    font-family: $main-font;
+                    color: #FFF;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    transition: .5s;
+                    font-weight: 700;
+                }
+
+                .lang-active {
+                    color: lightblue;
+                }
+            }
+        }
+    }
+
     // ========== Menu List ===========
     .menu {
         position: relative;
-        padding: 135px 30px 0;
+        padding: 80px 30px 0;
         height: 100%;
         box-sizing: border-box;
 
