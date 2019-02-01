@@ -32,6 +32,7 @@
   letter-spacing: 0.1em;
   color: #FFF;
   font-family: "Cutive Mono", monospace;
+  font-weight: 700;
 }
 .sidenav .btn-menu .btn-menu__i {
   width: 38px;
@@ -93,8 +94,10 @@
 .sidenav .menu .menu__list li {
   border-bottom: 1px solid #2e2e2e;
   margin-left: -25px;
+  transition: 0.2s;
 }
 .sidenav .menu .menu__list li a {
+  font-weight: 700;
   display: block;
   font-size: 13px;
   letter-spacing: 2px;
@@ -114,8 +117,16 @@
 .sidenav .menu .menu__list li .toggle {
   visibility: visible;
   opacity: 1;
-  transition: all 0.8s;
+  transition: 0.8s;
   transition-delay: 0.8s;
+}
+.sidenav .menu .menu__list li:hover a {
+  transform: scale(1.1);
+  letter-spacing: 5px;
+  transition: 0.5s;
+  background: -webkit-linear-gradient(yellow, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */
