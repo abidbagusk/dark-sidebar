@@ -7,7 +7,15 @@
 // }
 
 $(document).ready(function () {
-    $('.closebtn').click(function () {
-        $('#mySidenav').toggleClass('toggle');
+    // $('.closebtn').click(function () {
+    //     $('#mySidenav').toggleClass('toggle');
+    // });
+
+    $('.closebtn').on({
+        click: function () {
+            $('#mySidenav').animate({
+                'width': 250
+            }, 500, 'easeInOutSine');
+        }
     });
 });

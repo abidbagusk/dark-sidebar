@@ -4,7 +4,7 @@ $main-bg : #000000;
 
 .sidenav {
     height: 100%;
-    width: 100px;
+    width: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,14 +12,36 @@ $main-bg : #000000;
     background-color: $main-bg;
     padding-top: 50px;
     overflow-x: hidden;
-    transition: all 0.5s;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 
     a {
         display: block;
-        padding: 10px;
+        padding: 10px 0;
         text-decoration: none;
         color: #FFFFFF;
         font-family: $main-font;
+        font-size: 13px;
+        text-transform: uppercase;
+
     }
+
+    .list {
+        visibility: hidden;
+
+    }
+
+    .list-on {
+        visibility: visible;
+    }
+
+    .divider {
+        border-top: 0.5px solid #777;
+    }
+}
+
+// toggle
+.toggle {
+    width: 200px;
 }

@@ -1,6 +1,6 @@
 .sidenav {
   height: 100%;
-  width: 100px;
+  width: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,15 +8,31 @@
   background-color: #000000;
   padding-top: 50px;
   overflow-x: hidden;
-  transition: all 0.5s;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .sidenav a {
   display: block;
-  padding: 10px;
+  padding: 10px 0;
   text-decoration: none;
   color: #FFFFFF;
   font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.sidenav .list {
+  visibility: hidden;
+}
+.sidenav .list-on {
+  visibility: visible;
+}
+.sidenav .divider {
+  border-top: 0.5px solid #777;
+}
+
+.toggle {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
