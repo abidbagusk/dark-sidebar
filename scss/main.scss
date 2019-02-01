@@ -1,2 +1,13 @@
 $main-font: 'Roboto Mono',
 monospace;
+$main-bg : #000000;
+
+.sidenav {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: $main-bg;
+}
