@@ -232,8 +232,8 @@ $main-bg : #000000;
     .close {
         position: relative;
         margin: 0 auto;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         background: rgb(255, 255, 255);
         top: -30px;
         border: 1px solid $main-bg;
@@ -241,7 +241,7 @@ $main-bg : #000000;
         cursor: pointer;
         box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
         text-align: center;
-        line-height: 60px;
+        line-height: 50px;
         display: none;
     }
 
