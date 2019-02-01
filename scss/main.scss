@@ -9,6 +9,10 @@ $main-bg : #000000;
 
 // ========== Sidenav ==============
 .sidenav {
+    @media screen and (max-width: 760px) {
+        display: none;
+    }
+
     height: 100%;
     width: 94px;
     position: fixed;

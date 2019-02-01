@@ -16,6 +16,11 @@
   transition-duration: 0.8s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
+@media screen and (max-width: 760px) {
+  .sidenav {
+    display: none;
+  }
+}
 .sidenav .btn-menu {
   position: absolute;
   left: 50%;
