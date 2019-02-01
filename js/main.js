@@ -11,13 +11,32 @@ $(document).ready(function () {
     //     $('#mySidenav').toggleClass('toggle');
     // });
 
-    $('.closebtn').on({
+    $('.openbtn').on({
         click: function () {
             $('#mySidenav').animate({
                 'width': 200
             }, 600, 'easeInBack');
         }
     });
+    $('.openbtn').click(function () {
+        $(this).fadeOut(200, function () {
+            $('.closebtn').fadeIn(300);
+        });
+    })
+
+    $('.closebtn').on({
+        click: function () {
+            $('#mySidenav').animate({
+                'width': 50
+            }, 600, 'easeInBack');
+        }
+    });
+    $('.closebtn').click(function () {
+        $(this).fadeOut(200, function () {
+            $('.openbtn').fadeIn(300);
+        });
+    })
+
 
 
 });
