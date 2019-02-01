@@ -9,5 +9,6 @@ $(document).ready(function () {
     $('.sidenav--on-mobile').click(function () {
         $(this).toggleClass('toggle-on-mobile');
         $('.btn-menu').toggle(400);
+        $('.close').toggle(400);
     });
 });

@@ -185,10 +185,30 @@
   width: 40px;
   height: 40px;
   padding: 2px;
-  background: #2e2e2e;
+  background: #000000;
   transition-duration: 0.8s;
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+@media screen and (min-width: 760px) {
+  .sidenav--on-mobile {
+    display: none;
+  }
+}
+.sidenav--on-mobile .close {
+  position: relative;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  background: white;
+  top: -30px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  text-align: center;
+  line-height: 60px;
+  display: none;
 }
 .sidenav--on-mobile .btn-menu {
   position: absolute;
