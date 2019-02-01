@@ -73,5 +73,25 @@
   left: 13px;
   transition: all 0.4s;
 }
+.sidenav .menu .menu__list {
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  transform: translate(0, 0);
+  list-style-type: none;
+}
+.sidenav .menu .menu__list li {
+  border-bottom: 1px solid #2e2e2e;
+}
+.sidenav .menu .menu__list li a {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #FFF;
+  font-family: "Cutive Mono", monospace;
+  position: relative;
+  text-transform: uppercase;
+  height: 53px;
+}
 
 /*# sourceMappingURL=main.css.map */
